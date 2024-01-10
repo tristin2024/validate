@@ -6,9 +6,9 @@
 示例：
 
 ```
-go get -u git.beeps.cn/jiazujiang/validate
+go get -u github.com/tristin2024/validate
 
-import "git.beeps.cn/jiazujiang/validate"
+import "github.com/tristin2024/validate"
 
 if err := validate.Struct(&req); err != nil {
 		logs.Std.Warn(err)
